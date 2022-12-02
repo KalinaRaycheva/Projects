@@ -3,4 +3,4 @@ class Review:
         self.page_content = page_content
 
     def get_reeview(self):
-        pass
+        #the page still don't have
