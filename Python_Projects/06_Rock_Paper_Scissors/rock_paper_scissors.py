@@ -13,11 +13,9 @@ def play():
 
     if user == computer:
         return 'It\'s a tie.'
-
-    if is_win(user, computer):
+    elif is_win(user, computer):
         return 'You won!'
     else:
         return 'You lost!'
-
 
 print(play())
